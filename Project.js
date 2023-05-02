@@ -28,7 +28,7 @@ function mintNFT (_name, _faveDrink, _car, _faveAnimal) {
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs () {
-    for(let i = 0; 1 < NFTs.length; i++) {
+    for(let i = 0; i < NFTs.length; i++) {
         console.log(NFTs[i])
     }
 }
